@@ -1,0 +1,30 @@
+.likedSection {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.likedSection h2 {
+  margin-bottom: 24px;
+  text-align: center;
+}
+.subtitleLiked{
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+
+/* .likedGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.likedGrid > * {
+  width: 280px;
+} */
+.likedGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 270px));
+  gap: 24px;
+}
